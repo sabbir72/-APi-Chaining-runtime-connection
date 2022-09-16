@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1663351767697,1931,GetBookList,200,OK,Thread Group 1-1,text,true,,4762,141,1,1,https://bookstore.toolsqa.com/BookStore/v1/Books,1926,0,1684
+1663351769658,624,GetBookList single,200,OK,Thread Group 1-1,text,true,,4097,442,1,1,https://bookstore.toolsqa.com/swagger/,204,0,0
+1663351769658,204,GetBookList single-0,302,Found,Thread Group 1-1,text,true,,263,181,1,1,https://bookstore.toolsqa.com/BookStore/v1/Books/Programming%20JavaScript%20Applications,204,0,0
+1663351769865,207,GetBookList single-1,301,Moved Permanently,Thread Group 1-1,text,true,,491,130,1,1,https://bookstore.toolsqa.com/swagger,207,0,0
+1663351770073,209,GetBookList single-2,200,OK,Thread Group 1-1,text,true,,3343,131,1,1,https://bookstore.toolsqa.com/swagger/,209,0,0
+1663351770300,3,Debug Sampler,200,OK,Thread Group 1-1,text,true,,447,0,1,1,null,0,0,0
